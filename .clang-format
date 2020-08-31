@@ -1,0 +1,27 @@
+BasedOnStyle: LLVM
+
+ColumnLimit: 80
+IndentWidth: 4
+AccessModifierOffset: -4
+PointerAlignment: Left
+
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+BreakBeforeBraces: Custom
+BraceWrapping:
+  BeforeCatch: true
+  BeforeElse: true
+  AfterFunction: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+
+AlwaysBreakTemplateDeclarations: No
+
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: true
+
+DerivePointerAlignment: false
+
+SortIncludes: false
+IncludeBlocks: Preserve
+

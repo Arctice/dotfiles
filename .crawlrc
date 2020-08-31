@@ -1,0 +1,86 @@
+#online visible autexplore
+explore_delay=20
+
+# safety
+autofight_stop = 80
+hp_warning = 49
+autofight_hunger_stop = 1
+bad_item_prompt = true
+warn_hatches = true
+auto_exclude += Orc sorcerer, Sigmund, Grinder
+
+# tweaks
+hp_colour = 80:yellow, 59:red
+equip_unequip = true
+rest_wait_both = true
+autofight_throw = true
+autofight_throw_nomove = true
+show_game_time = false
+default_manual_training = true
+show_travel_trail=true
+
+# log readability
+show_more = false
+clear_messages = false
+msg_max_height = 16
+
+# easier food management
+auto_butcher = true
+confirm_butcher = never
+easy_eat_chunks = true
+auto_eat_chunks = true
+
+
+item_slot ^= identify:i
+autoinscribe += potions? of berserk rage:!q
+explore_stop_pickup_ignore += ration, scroll, potion
+
+
+# forced <more> messages
+
+more := force_more_message
+
+more += Found a frozen archway
+more += Found a gateway leading out of the Abyss
+more += Found a labyrinth entrance
+more += Found a staircase to the Ecumenical Temple
+more += The mighty Pandemonium lord.*resides here
+
+# Portal Timers
+more += distant snort
+more += interdimensional caravan
+more += invites you to visit
+more += oppressive heat
+more += roar of battle
+more += sound of rushing water
+more += The drain falls to bits
+more += There is an entrance to a bailey on this level
+more += tolling of a bell
+more += wave of frost
+more += You hear the drain falling apart
+more += You hear.*crackle.*magical portal
+more += You hear.*crackling.*archway
+more += You hear.*creaking.*(oriflamme|portcullis)
+more += You hear.*hiss.*sand
+more += You hear.*rumble.*avalanche
+more += You hear.*rusting.*drain
+more += You hear.*ticking.*clock
+
+more += MASSIVE DAMAGE
+more += Ouch! That really hurt!
+
+# Ru
+more += you are ready to make a new sacrifice
+
+# Wrath
+more += Nemelex gives you another card to finish dealing
+more += Fedhas invokes the elements against you
+more += Lugonu sends minions to punish you
+more += Okawaru sends forces against you
+more += wrath finds you
+
+
+# Haste
+more += You feel yourself slow down
+# Enslavement
+more += is no longer charmed
